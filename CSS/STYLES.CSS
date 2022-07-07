@@ -1,10 +1,37 @@
 
-html{
-    font-size: 16px;
+@font-face{
+    font-family:ap ;
+    src: url("../Fuentes/ap-air.ttf");
+    font-style: normal;
+    font-weight: 400;
 }
+@font-face{
+    font-family:Aruberuto ;
+    src: url("../Fuentes/ap-air.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:Aruberuto ;
+    src: url("../Fuentes/ap-air.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:Aruberuto ;
+    src: url("../Fuentes/ap-air.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
 body{
     color: #212121;
     font-size: 20px;
+    font-family: ap;
+    font-family: 'Roboto', sans-serif;
 }
 a{
     color: #212121;
