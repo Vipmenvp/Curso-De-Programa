@@ -61,3 +61,34 @@ nav details summary {
 nav details summary:hover{
     color: gray;
 }
+pre{
+    background: rgb(241, 222, 8);
+}
+.hero{
+    background-image:linear-gradient(to top, rgba(225, 225, 225, 0.3), transparent), url("../images/Patrom.png");
+    /*background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    height: 350px;
+}
+.section-content{
+  counter-reset: Number;  
+}
+
+.section-content h3{
+    counter-increment: Number;
+}
+
+.section-content h3::before{
+    content: counter(Number);
+
+}
+.section-content h3::after{
+    content: '';
+    width: 32px;
+    height: 4px;
+    background:rgb(26, 23, 23);
+    display: inline-block;
+}
+
+
