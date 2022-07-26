@@ -199,3 +199,40 @@ span{
     /*border: 1px solid blue;*/
     padding:16px ;
 }
+.slider{
+    /*border: 1px solid red;*/
+}
+.slider-container{
+   /* border: 1px solid blue;*/
+    /*block-size: 100px;*/
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap; 
+    font-size: 0; 
+    width: 64.3%;
+    margin: auto;
+}
+.video {
+    margin: 0;
+    /*border: 1px solid greenyellow;*/
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+.slider-bullet-list{
+    /*border: 1px solid greenyellow;*/
+    text-align: center;
+    
+}
+.slider-bullet{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: #314755;
+    border-radius: 80%;
+}
+.H2-V{
+    margin-inline-start: 130px;
+}
