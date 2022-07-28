@@ -49,11 +49,10 @@ a{
     color: #FFFFFF;
 }
 h1{
-    font-size: 60px;
-    /*margin-top: 64px;
-    margin-bottom: 16px;*/
+    font-size: 40px;
+   margin-block-start: 18px;
     font-weight: normal;
-    margin-block-start: 64px;
+    /*margin-block-start: 64px;*/
     margin-block-end: 16px;
 }
 
@@ -74,21 +73,23 @@ li{
 }
 
 .header{
-    position: sticky;
-    inset-block-start: 20px;
+    /*position: sticky;
+    inset-block-start: 20px;*/
 }
 .header-content{
-    position: relative;
+   /* position: relative;*/
+   padding-inline:20px ;
 }
 header li{
     margin-block-end: 16px;
 }
 header{
+    margin-block-start: 20px;
     font-size: 14px;
-    position: absolute;
-    inset: block start 65px;
-    inset-inline-start: -208px;
-    inline-size: 188px;
+    /*position: absolute;*/
+    /*inset: block start 65px;*/
+    /*inset-inline-start: -208px;*/
+    /*inline-size: 188px;*/
 }
 
 .hero{
@@ -133,7 +134,7 @@ pre{
     /*background-repeat: no-repeat;
     background-position: center;
     background-size: cover;*/
-    height: 350px;
+     block-size: 50px;
 }
 .section-content img{
     margin-block-start:40px ;
@@ -235,4 +236,50 @@ span{
 }
 .H2-V{
     margin-inline-start: 130px;
+}
+.form input{
+    inline-size: 100%;
+    border: #FFFFFF solid 1px;
+    box-sizing: border-box;
+    background: #251F24;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: block;
+    margin-block-end: 24px;
+}
+.form input[type="submit"]{
+    background: #5551FF;
+    border: none;
+}
+
+
+.form ::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+@media screen and (min-width:1350px ) {
+    .hero{
+        block-size: 350px;
+    }
+    .header{
+        position: sticky;
+        inset-block-start: 20px;
+    }
+    .header-content{
+        position: relative;
+        padding-inline:0px ;
+    }
+    header{
+        /*font-size: 14px;*/
+        position: absolute;
+        inset: block start 0px;
+        inset-inline-start: -208px;
+        inline-size: 188px;
+    }
+    h1{
+        font-size: 60px;
+        margin-block-start: 64px;
+    }
 }
